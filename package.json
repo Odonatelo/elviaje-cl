@@ -1,0 +1,9 @@
+{
+  "name": "elviaje-consultoria",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"build": "vite build && node scripts/static-pages.mjs", "build:preview": "vite build --base=/elviaje-cl/ && node scripts/static-pages.mjs --preview", "dev": "vite"},
+  "dependencies": {"react": "^19.0.1", "react-dom": "^19.0.1", "lucide-react": "^0.546.0"},
+  "devDependencies": {"@vitejs/plugin-react": "^5.0.4", "@tailwindcss/vite": "^4.1.14", "vite": "^6.2.3", "tailwindcss": "^4.1.14"}
+}
