@@ -204,7 +204,7 @@ function WelcomeIntro() {
 
     <div className="welcome-intro__scene welcome-intro__scene--video" aria-label="Video de un vuelo">
       <div className="welcome-intro__video-frame">
-        <iframe src="https://www.youtube-nocookie.com/embed/saMD5nHpj1Q?autoplay=1&mute=1&loop=1&playlist=saMD5nHpj1Q&start=21&controls=0&playsinline=1&modestbranding=1&rel=0&disablekb=1" title="Vuelo de la libélula" allow="autoplay; encrypted-media; picture-in-picture" />
+        <iframe src="https://www.youtube-nocookie.com/embed/saMD5nHpj1Q?autoplay=1&mute=1&loop=1&playlist=saMD5nHpj1Q&start=27&controls=0&playsinline=1&modestbranding=1&rel=0&disablekb=1" title="Vuelo de la libélula" allow="autoplay; encrypted-media; picture-in-picture" />
       </div>
     </div>
 
