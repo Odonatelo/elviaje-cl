@@ -215,6 +215,7 @@ function WelcomeIntro() {
 function ConsultationMusic() {
   const [isOpen, setIsOpen] = useState(false);
   return <div className="mt-7 max-w-sm rounded-2xl border border-white/20 bg-[#112d25]/70 p-4">
+    <p className="mb-4 text-sm leading-relaxed text-[#d6e0da]">Antes de que hablemos, te invito reflexionar sobre la misión de tu organización o proyecto ¿Cómo quieres cambiar el mundo y ser parte de este viaje?</p>
     <p className="text-sm font-bold text-[#f5c96a]">Gabriel’s Oboe · Ennio Morricone</p>
     <p className="mt-1 text-xs text-[#c9d7ce]">De la película La misión</p>
     <button type="button" onClick={() => setIsOpen(!isOpen)} aria-expanded={isOpen} aria-controls="consultation-music" className="mt-3 rounded-full border border-white/30 px-4 py-2 text-sm font-bold text-white transition hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#f5c96a]">{isOpen ? 'Cerrar y detener música' : 'Escuchar música'}</button>
